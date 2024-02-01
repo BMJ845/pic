@@ -1,103 +1,100 @@
 function pickItem() {
-    
-    co
-
-   
-const items = ['1티어', '2티어', '3티어', '4티어'];
-    
-   
-const probabilities = [1, 9, 20, 70];
+    const items = ['1티어', '2티어', '3티어', '4티어'];
+    const probabilities = [1, 9, 20, 70];
 
     
-
-   
-
 
 const randomValue = Math.random() * 100;
-    let selectedItem = '';
+    
+   
+let selectedItem = '';
 
     
 
-    i
-
-
-  
 if (randomValue < probabilities[0]) {
         selectedItem = items[
-        selectedItem = i
+        selectedItem = items[
 
-        selectedIt
-
-        sele
-
-     
-0];
-        
-        docu
+        selectedItem =
 
        
-
-  
-document.getElementById('itemImage').src = 'item1.jpg';
-    } 
-    } e
-
-  
-else if (randomValue < probabilities[0] + probabilities[1]) {
-        selectedItem = items[
-        selectedItem = ite
-
-        select
-
-        
-
-    
-1];
-        
-        doc
-
-     
-document.getElementById('itemImage').src = 'item2.jpg';
+0];
+        document.getElementById('itemImage').src = 'item1.jpg';
     } 
     }
+else if (randomValue < probabilities[0] + probabilities[1]) {
+        selectedItem = items[
+        selectedItem = items
+
+        selectedItem
+
+       
+1];
+        
+       
+document.getElementById('itemImage').src = 'item2.jpg';
+    } 
+    } els
+
+    }
+
+ 
 else if (randomValue < probabilities[0] + probabilities[1] + probabilities[2]) {
         selectedItem = items[
-        selectedItem = items[
+        selectedItem = 
 
-        selectedItem = it
-
-        selectedItem 
-
-        selectedI
+        selected
 
         selec
 
-        s
-
-      
-
-   
+       
 2];
         
-        docu
-
-        
+        doc
 
     
 document.getElementById('itemImage').src = 'item3.jpg';
     } 
-    } e
+    
 else {
         selectedItem = items[
-        selectedItem
+        selectedItem = items[
+
+        selectedItem =
+
+        select
+
+       
 3];
-        document.getElementById('itemImage').src = 'item4.jpg';
+        
+        documen
+
+        d
+
+   
+document.getElementById('itemImage').src = 'item4.jpg';
     }
 
     
     }
 
-    
+    co
+
+    }
+
+ 
+
+  
 const resultText = document.getElementById('resultText');
-    resultText.innerHTML = `뽑힌 아이템: ${selectedItem}`;
+    resultText.
+    resultText
+
+    resultT
+
+    resu
+
+    r
+
+  
+innerHTML = `뽑힌 아이템: ${selectedItem}`;
 }
